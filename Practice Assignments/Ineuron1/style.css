@@ -1,0 +1,11 @@
+table, th, tr, td{
+    border: 5px solid red;
+    border-radius: 10px;
+    border-color: brown;    
+    border-collapse: collapse;
+}
+
+th, td{
+    background-color: aquamarine;
+    
+}

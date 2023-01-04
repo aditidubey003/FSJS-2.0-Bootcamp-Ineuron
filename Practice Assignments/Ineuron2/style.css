@@ -1,0 +1,10 @@
+table, th , td{
+    border: 2px solid brown;
+    border-collapse: collapse;
+   
+}
+
+
+td{
+    white-space: wrap;
+}

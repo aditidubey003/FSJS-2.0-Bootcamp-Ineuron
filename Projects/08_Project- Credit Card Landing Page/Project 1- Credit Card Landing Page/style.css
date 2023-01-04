@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Design */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Header*/
+.header{
+    background-color:#181818 ;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.nav-bar ul>li{
+    color: #ffffff;
+    margin-left: 32px;   
+}
+.button-section{
+    cursor: pointer;
+}
+.button-section div{
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+.button-section div p{
+margin-right:10px ;
+}
+
+.contact-btn{
+    background:url(./Assets/Icons/btn-pink-bg.svg) no-repeat;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Main */
+/* Content Section  */
+
+.section-1{
+    background-color:#181818  ;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.content-section{
+  padding-top: 70px;
+  z-index: 3;
+}  
+.heading-section h1{
+    font-size: 80px;
+    color: #ffffff;
+    width: 75%;
+}
+.heading-section span{
+    color:#F637EC ;
+    font-weight: bold;
+}
+
+.paragraph-section{
+    font-size: 25px ;
+    color: gray;
+    margin-top: 30px;
+    width:45% ;
+}
+
+.get-started-btn{
+    background:url(./Assets/Icons/btn-pink-bg.svg) no-repeat;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 100px 0;
+}
+
+
+.active-user-section{
+    width: 45%;
+    margin-top: 20px;
+}
+.active-user-section span{
+    color:#F637EC ;
+}
+.left , .right{
+    display: flex;
+    flex-direction: row;
+}
+
+ 
+.big-text{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+
+.small-text{
+    font-size: 25px;
+    width:150px ;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+
+/* Cards Sections */
+
+.backcards{
+    position:absolute;
+    top:5px;
+    left: 400px;
+  
+}
+
+.frontcards{
+    position:absolute;
+    top: 70px;
+    left: 620px;
+ 
+} 
+
+/* Section-2 */
+.section-2{
+    padding: 80px 100px;
+    background-color:#292929;
+}
+
+/* Section-3 */
+.section-3{
+    background-color:#181818 ;
+    padding-top: 80px;
+}
+.left-side {
+    width: 50%;
+}
+.right-side{
+    width: 40%;
+}
+.left-side h2{
+font-size: 60px;
+color: #ffffff;
+
+}
+.left-side span {
+    color: #F637EC;
+    font-weight: bold;
+}
+.right-side p {
+    font-size:25px ;
+    color:gray ;
+    
+}
+
+/*Icon-box*/ 
+
+.icon section {
+   margin-top: 60px;
+}
+.box {
+    width: 300px;
+    height: 280px;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box-1 , .box-3 {
+    background-color:#272727 ;
+    border-top: 3px  solid gray;
+    border-left:3px  solid gray ;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid gray;
+}
+.box-2 {
+background-color:#565655 ;
+border-top: 3px  solid white;
+border-left:3px  solid white ;
+border-right: 1px solid white;
+border-bottom: 1px solid white;
+margin-bottom: 100px;
+}
+
+/*Transitions*/
+.box:hover{
+    width: 280px;
+    height: 240px ;
+}
+.box {
+    transition: width   0.8s, height 1s;
+}
+
+
+/* Section-4 */
+.section-4 {
+    background-color:#e1cfe0 ;
+    padding: 30px 0;
+}
+
+.card-choice-section{
+    width: 80%;
+   text-align: center;
+ margin: 0 auto;
+   
+}
+.card-choice-section h2{
+font-size: 80px;
+color: black;
+}
+.card-choice-section span {
+    color: #F637EC;
+    font-weight: bold;
+}
+.card-choice-section p {
+    font-size: 20px;
+    color: gray;
+    z-index: 1;
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+.v-card {
+    height: 800px;
+}
+
+/* Section-5 */
+.section-5 {
+    background-color:#181818;
+    padding-bottom: 100px;
+}
+
+.section-5 h2 {
+    padding-top: 100px;
+    font-size:90px;
+    color: #ffffff;
+    text-align: center;
+}
+.section-5 span {
+    color: #F637EC;
+    font-weight: bold;
+}
+.bottom-text  {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 40px;
+  
+}
+
+/* Rating-box Section  */
+.child {
+    width: 500px;
+    height: 220px;
+    border: 2px solid white ;
+    padding: 20px;
+    cursor: pointer;
+}
+.child p {
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.quote {
+    padding: 20px 0;
+}
+
+.flex.flex-1{
+    padding-top: 100px;
+}
+.flex.flex-2{
+    padding-top: 100px;
+}
+
+.child.child-1{
+    background-color:#565655 ;
+}
+.child.child-2{
+    background-color:#272727 ;
+}
+.child.child-3{
+    background-color:#272727 ;
+}
+.child.child-4{
+    background-color:#272727 ;
+}
+/*Transition*/
+.child:hover {
+    width: 520px;
+    height: 240px;
+}
+.child{
+    transition: width   0.8s, height 1s;
+}
+
+
+/*Marker-dots*/
+.marker-dots{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 10px;
+}
+.pink-marker{
+    width: 60px;
+    height: 10px;
+    border-radius: 22%;
+    background-color: #F637EC;
+    box-shadow:0px 0px 2px 2px #F637EC ; 
+}
+
+/* Section-6*/
+.section-6{
+background-color: #181818;
+    padding-top: 170px;
+    height: 600px;
+}
+/*Rectangle Design section*/
+.solid-pink {
+    position: relative;
+    right:90px ;
+    bottom: 150px;
+}
+
+.blur-pink{
+    position: relative;
+    right: 90px;
+    bottom:700px;
+
+}
+
+.left-diamond{
+    position: relative;
+    bottom: 1230px;
+    left: 800px;
+}
+.right-diamond{
+    position: relative;
+    bottom: 1800px;
+    
+}
+
+.customing {
+    z-index: 2;
+    font-size: 90px;
+    color: #ffffff;
+    position: relative;
+    bottom: 2250px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+ .black{
+color: black;
+}
+
+.pink-btn-2{
+    margin: 0 auto;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    bottom: 2290px;
+}
+
+/* Section-7*/
+.section-7 {
+  background-color: #181818;
+  padding-bottom: 80px;
+}
+
+.nav-bar-footer{
+    display: flex;
+    position: relative;
+    right: 400px;
+}
+
+.nav-bar-footer > li {
+    cursor:pointer;
+}

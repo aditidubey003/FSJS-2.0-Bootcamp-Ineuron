@@ -1,0 +1,82 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body{
+    height:100vh ;
+    overflow: hidden;
+    font-family:'Poppins' , sans-serif ;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+
+
+/* Nav-bar */
+.navbar-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.grow-list{
+    margin-left:10px ;
+}
+.list{
+    font-size: 20px;
+    color: #758283;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 300px;
+}
+li:hover{
+    color: #1f1f1f;
+}
+.list li{
+    margin-left: 32px;
+}
+li:first-child{
+    color: black;
+}
+
+/* Button */
+.nav-button{
+    background-color:#6a67bb  ;
+    color: #ffffff;
+    font-size:20px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* Banner */
+.heading-text{
+    font-size: 55px;
+    font-weight:600;
+    color:#3c2f60;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.heading-text span{
+    color:#6a67bb ;
+}
+.description{
+    font-size: 20px;
+    color:#758283 ;
+}
+.banner-container{
+    display: flex;
+}
+.banner-container img{
+    width: 700px;
+    padding-top: 30px;
+    margin-right: 0;
+    padding-left: 60px;
+}
+.nav-button.btn{
+    margin-top: 30px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Search */
+    background: #F9F5ED;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montsterrat', sans-serif;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; */
+    font-size: 20px;
+    font-weight: 500;
+    color:#242B2E;
+}
+
+
+/* CSS for HERO Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    
+}
+
+.leftmain{
+    width: 40%;
+    margin-right: 40px;
+}
+
+.leftmain h1{
+    font-size: 67px;
+}
+
+.leftmain p{
+    margin: 5% 0;
+    font-size: 20px;
+    color: #242B2E;
+    
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain{
+    width: 60%;
+    height:50%;
+    margin-left: 90px;
+
+}
+
+.rightmain div img{
+    margin: 10px;
+    
+}

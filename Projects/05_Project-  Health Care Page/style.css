@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #F0F4F5;
+    margin: auto; /* Auto */
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+li{ 
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    color:#41d399;
+}
+
+/* Hero Section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section {
+    width: 50%;
+}
+
+.leftsection{
+    margin-left: 5%;
+    position: relative;
+}
+
+.topangle{
+    width: 25px;
+}
+
+.leftsection h1{
+    font-size: 70px;
+}
+
+.leftsection p {
+    color: #808080;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom :0;
+    width: 30px;
+}
+
+.leftsection button{
+    color: white;
+    background-color: #41d399 ;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+/*  Right Side */
+.greenbox,  .orangebox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 0px;
+    padding-right: 20px;
+}
+.orangebox{
+    width: 30%;
+    bottom: 20px;
+}
+
+
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    padding-right: 30px;
+}
