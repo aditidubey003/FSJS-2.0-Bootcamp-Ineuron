@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Search */
-    background: #F9F5ED;
+    background:#fdfad3 ;
 }
 body{
     height: 100vh;
@@ -13,14 +13,13 @@ body{
     font-family: 'Montsterrat', sans-serif;
 }
 nav{
-    padding: 20px 10%;
+    padding: 20px 120px;
     height: 15vh;
 }
 
 nav ul {
     display: flex;
     align-items: center;
-
 }
 
 nav ul li {
@@ -30,8 +29,11 @@ nav ul li {
     font-size: 20px;
     font-weight: 500;
     color:#242B2E;
+    cursor: pointer;
 }
-
+nav ul li:hover {
+    color: #3b855b;
+}
 
 /* CSS for HERO Section */
 
@@ -40,7 +42,6 @@ main{
     align-items: center;
     justify-content: center;
     margin-left: 10%;
-    
 }
 
 .leftmain{
@@ -56,7 +57,6 @@ main{
     margin: 5% 0;
     font-size: 20px;
     color: #242B2E;
-    
 }
 
 .leftmain button{
@@ -66,13 +66,14 @@ main{
     border-radius: 10px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
+
 
 .rightmain{
     width: 60%;
     height:50%;
     margin-left: 90px;
-
 }
 
 .rightmain div img{
