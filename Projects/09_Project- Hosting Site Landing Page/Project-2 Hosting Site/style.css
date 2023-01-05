@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Design*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1{
+    background-color:#111010;
+    padding-top: 20px;
+}
+
+.nav-bar li{
+    color:#767474;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+.login-button{
+background-color: #0c8bfd;
+font-size: 16px;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+color: #ffffff;
+}
+
+.main-text{
+    font-size: 60px;
+    color: #fff;
+    font-weight:700;
+    width: 80%;
+}
+.main-text span {
+    color: #0c8bfd;
+    font-style: italic;
+  
+}
+
+.sub-text{
+    color: #767474;
+    font-size: 20px;
+    width: 80%;
+    padding-top: 20px;
+}
+.get-started-button{
+background-color: #0c8bfd;
+font-size: 20px;
+width: 180px;
+height: 60px;
+border-radius: 40px;
+color: #ffffff;
+}
+.get-started-button:hover{
+    background-color: #fff;
+    color: #0c8bfd;
+    font-weight: bold;
+}
+.try-start-free-button{
+background-color:#111010;
+font-size: 20px;
+width: 180px;
+height: 60px;
+border-radius: 40px;
+color: #ffffff;
+border: 2px solid #ffffff;
+margin-left: 30px;
+}
+.try-start-free-button:hover{
+    background-color: #fff;
+    color: #111010;
+    font-weight: bold;
+}
+.button{
+display: flex;
+padding-top: 40px;
+}
+
+.main-div{
+    display: flex;
+    padding-top: 40px;
+}
