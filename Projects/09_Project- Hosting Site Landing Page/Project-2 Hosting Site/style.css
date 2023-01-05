@@ -72,6 +72,7 @@ body{
 .section-1{
     background-color:#111010;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .nav-bar li{
@@ -90,19 +91,19 @@ border-radius: 20px;
 color: #ffffff;
 }
 
-.main-text{
+.main-text-1{
     font-size: 60px;
     color: #fff;
     font-weight:700;
     width: 80%;
 }
-.main-text span {
+.main-text-1 span {
     color: #0c8bfd;
     font-style: italic;
   
 }
 
-.sub-text{
+.sub-text-1{
     color: #767474;
     font-size: 20px;
     width: 80%;
@@ -144,4 +145,71 @@ padding-top: 40px;
 .main-div{
     display: flex;
     padding-top: 40px;
+}
+
+
+.section-2{
+    background-color: #1d1c1c;
+    padding: 40px 150px;
+}
+.section-3{
+    background-color:#ffffff;
+    padding: 100px 150px;
+}
+
+.main-text-2{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.sub-text-2{
+    font-size: 20px;
+    color: #767474;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+}
+.parent{
+    padding-top: 150px;
+}
+.child{
+    width: 30%;
+    height: 280px;
+    border: 2px solid #767474;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.child > img {
+    padding: 20px 0;
+
+}
+.child-main-para{
+    font-size: 25px;
+    font-weight: bold;
+}
+.child-sub-para{
+    font-size: 20px;
+    color: #767474;
+    margin-top: 10px;
+}
+
+.child-2 {
+    background-color: #111010;
+    margin-bottom: 70px;
+
+}
+.child-2 .child-main-para{
+    color: #ffffff;
+}
+.child-1:hover{
+    background-color: #111010;
+    color: #fff;
+}
+.child-3:hover{
+    background-color: #111010;
+    color: #fff;
 }
