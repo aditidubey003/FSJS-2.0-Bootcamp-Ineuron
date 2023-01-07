@@ -309,7 +309,7 @@ border: none;
 
 .section-4{
     background-color: #111010;
-    padding-top: 80px;
+    padding: 80px 0;
 }
 .main-text-4{
     text-align: center;
@@ -417,10 +417,51 @@ margin-top: 20px;
     font-weight: bold;
     color: black;
     width: 40%;
+    margin-left: 100px;
     
 }
 .sub-text-4{
     font-size: 20px;
     color: #767474;
     width: 40%;
+    margin-right: 100px;
+}
+.rating-box-section{
+    padding-top: 80px;
+}
+.rating-box{
+    width: 600px;
+    height: 350px;
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+}
+.sub-text-5{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.sub-text-7{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.vector{
+    padding: 20px 0;
+}
+.rb-1{
+    margin-left: 100px;
+}
+.rb-2{
+    background-color: #fff;
+    color: black;
+    border: 1px solid #767474;
+    position: absolute;
+    right: -160px;
+   
+}
+.grey-2{
+    height: 7px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
