@@ -56,6 +56,7 @@ body{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    padding-bottom:200px ;
 }
 
 .container{
@@ -90,7 +91,7 @@ body{
     margin-right: 10px;
 }
 
-.login-button{
+.sign-up-button{
     background-color: #f4694c;
     font-size: 16px;
     width: 120px;
@@ -186,12 +187,25 @@ body{
     text-align:center;
     margin: 0 auto;
 }
-.soldier{
-    width: 400px;
-    height: 400px;
+/* CSS for cards */
+.card{
+    width:25%;
+    height: 220px;
 }
-.soldier-war-banner{
-    width: 500px;
-    height: 500px;
-    
+
+.image{
+    background: url(./Assets/Photos/image\ 2.png) no-repeat;
+    background-size: 100%;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.description{
+    width:100%;
+    height: 70px;
+    background-color: grey;
+    position: relative;
+    top: 100px;
 }
