@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Design*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS for Section-1 */
+.section-1{
+    background: url(./Assets/Photos/futuristic-bg.png);
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+.nav-bar{
+    padding-top: 30px;
+}
+.nav-bar li{
+    color:#ffffff;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.sign-in-link{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.login-button{
+    background-color: #f4694c;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+}
+.login-button:hover{
+    background-color: #fff;
+    color: #f4694c;
+    font-weight: bold;
+}
+
+.get-started-button{
+    background-color: #f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+}
+.get-started-button:hover{
+    background-color: #fff;
+    color: #f4694c;
+    font-weight: bold;
+}
+
+.main-text{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 45%;
+    padding-top: 80px;
+}
+.sub-text{
+    color: #837e80;
+    font-size: 20px;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.learn-more-button{
+    background-color:  transparent;
+    color: #f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: 30px;
+}
+.learn-more-button:hover{
+    background-color: #f4694c;
+    font-weight: bold;
+}
+.button{
+    display : flex;
+    padding-top: 40px;
+}
+
+.play-btn{
+    /* position:relative; */
+    position: absolute;
+    top: 250px;
+    right: 270px;
+}
+.side-text{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 500px;
+    right: 150px;
+    width: 18%;
+}
+.right-arrow-1{
+    position: absolute;
+    top: 510px;
+    right: 410px;
+}
+.right-arrow-2{
+    position: absolute;
+    top: 590px;
+    right: 60px;
+}
+
+/* CSS for section-2 */
+.section-2{
+
+}
+
+.mt-2{
+    color: black;
+    width: 70%;
+    text-align:center;
+    margin: 0 auto;
+}
+.soldier{
+    width: 400px;
+    height: 400px;
+}
+.soldier-war-banner{
+    width: 500px;
+    height: 500px;
+    
+}
