@@ -65,7 +65,7 @@ console.log(Math.sin(90));
 //5 types of loops 
 //learning 3 loops now
 //do while, while, for
-// iterate 
+// iteration can be called repetition 
 let i=6;
 do {
     console.log("Value of i is: ",i)
