@@ -1,6 +1,6 @@
 
 let firtName = 'Aditi';
-
+alert (`firstName`);
 let lastName = 'Dubey';
 
 let maritalStatus = Single;
