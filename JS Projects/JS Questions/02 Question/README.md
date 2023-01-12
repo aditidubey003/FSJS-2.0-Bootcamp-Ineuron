@@ -1,0 +1,1 @@
+Q-2 Declare Variable to store your first name, last name, marital status , country and age and display them by using interpolation method.

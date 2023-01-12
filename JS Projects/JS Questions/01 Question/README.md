@@ -1,0 +1,1 @@
+Q-1 Create a Variable.js file and declare variables and assign string, boolean, null, undefined, and null data types. Display all the value with the datatype.

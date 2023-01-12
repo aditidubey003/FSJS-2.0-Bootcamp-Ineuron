@@ -98,14 +98,18 @@ body{
     height: 40px;
     color: #ffffff;
 }
+.sign-up-button:hover{
+background-color: orangered;
+color: #ffffff;
+}
 .login-button:hover{
     background-color: #fff;
-    color: #f4694c;
+    color:#f4694c;
     font-weight: bold;
 }
 
 .get-started-button{
-    background-color: #f4694c;
+    background-color:#f4694c;
     font-size: 20px;
     width: 180px;
     height: 60px;
@@ -113,7 +117,7 @@ body{
     border: none;
 }
 .get-started-button:hover{
-    background-color: #fff;
+    background-color: #ffffff;
     color: #f4694c;
     font-weight: bold;
 }
@@ -244,13 +248,3 @@ body{
 }
 
 /* War Game Section */
-.mt-3{
-    color: black;
-    text-transform:capitalize;
-    width: 42%;
-    font-size: 45px;
-}
-.war-game-image{
-    width:450px ;
-    height: 400px;
-}
