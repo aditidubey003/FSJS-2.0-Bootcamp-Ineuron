@@ -252,15 +252,10 @@ border-right: 1px solid white;
 border-bottom: 1px solid white;
 margin-bottom: 100px;
 }
-
-/*Transitions*/
 .box:hover{
-    width: 280px;
-    height: 240px ;
+   scale: 0.9;
 }
-.box {
-    transition: width   0.8s, height 1s;
-}
+
 
 
 /* Section-4 */
@@ -359,14 +354,11 @@ color: black;
 .child.child-4{
     background-color:#272727 ;
 }
-/*Transition*/
+
 .child:hover {
-    width: 520px;
-    height: 240px;
+  scale: 0.9;
 }
-.child{
-    transition: width   0.8s, height 1s;
-}
+
 
 
 /*Marker-dots*/
