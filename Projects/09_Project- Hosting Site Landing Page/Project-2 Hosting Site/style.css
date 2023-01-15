@@ -69,6 +69,7 @@ body{
     align-items: center;
 }
 
+/* section-1 */
 .section-1{
     background-color:#111010;
     padding-top: 20px;
@@ -79,16 +80,21 @@ body{
     color:#767474;
     font-size: 16px;
     margin-left: 20px;
+    cursor: pointer;
+}
+.nav-bar li:hover{
+color: #fff;
 }
 
 
 .login-button{
-background-color: #0c8bfd;
-font-size: 16px;
-width: 120px;
-height: 40px;
-border-radius: 20px;
-color: #ffffff;
+    background-color: #0c8bfd;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
 }
 .login-button:hover{
     background-color: #fff;
@@ -114,13 +120,14 @@ color: #ffffff;
     padding-top: 20px;
 }
 .get-started-button{
-background-color: #0c8bfd;
-font-size: 20px;
-width: 180px;
-height: 60px;
-border-radius: 40px;
-color: #ffffff;
-border: none;
+    background-color: #0c8bfd;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 .get-started-button:hover{
     background-color: #fff;
@@ -128,23 +135,25 @@ border: none;
     font-weight: bold;
 }
 .try-start-free-button{
-background-color:#111010;
-font-size: 20px;
-width: 180px;
-height: 60px;
-border-radius: 40px;
-color: #ffffff;
-border: 2px solid #ffffff;
-margin-left: 30px;
+    background-color:#111010;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: 30px;
+    cursor: pointer;
 }
 .try-start-free-button:hover{
     background-color: #fff;
     color: #111010;
     font-weight: bold;
+    
 }
 .button{
-display: flex;
-padding-top: 40px;
+    display: flex;
+    padding-top: 40px;
 }
 
 .main-div{
@@ -152,11 +161,13 @@ padding-top: 40px;
     padding-top: 40px;
 }
 
-
+/* section-2 */
 .section-2{
     background-color: #1d1c1c;
     padding: 40px 150px;
 }
+
+/* section-3 */
 .section-3{
     background-color:#ffffff;
     padding: 100px 150px;
@@ -187,6 +198,8 @@ padding-top: 40px;
     text-align: center;
     padding: 20px;
     border-radius: 20px;
+    cursor: pointer;
+    
 }
 .child-1, .child-3{
     transition: 0.3s linear;
@@ -217,11 +230,13 @@ padding-top: 40px;
     background-color: #111010;
     color: #fff;
     margin-bottom:70px ;
+    scale: 0.9;
 }
 .child-3:hover{
     background-color: #111010;
     color: #fff;
     margin-bottom:70px;
+    scale: 0.9;
 }
 
 
@@ -242,40 +257,41 @@ padding-top: 40px;
     font-size: 20px;
     padding: 20px;
     margin-top: 15px;
+    cursor: pointer;
 }
 .box-2, .box-3, .box-4, .box-5{
-background-color: #fff;
-border: 1px solid #111010;
-color: black;
-font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #111010;
+    color: black;
+    font-weight: bold;
 }
 .box-2:hover{
-background-color: #0c8bfd;
-color: #fff;
-font-weight: lighter;
-border: none;
+    background-color: #0c8bfd;
+    color: #fff;
+    font-weight: lighter;
+    border: none;
  }
 
 .box-3:hover{
-background-color: #0c8bfd;
-color: #fff;
-font-weight: lighter;
-border: none;
+    background-color: #0c8bfd;
+    color: #fff;
+    font-weight: lighter;
+    border: none;
 }
 
 .box-4:hover{
-background-color: #0c8bfd;
-color: #fff;
-font-weight: lighter;
-border: none;
+    background-color: #0c8bfd;
+    color: #fff;
+    font-weight: lighter;
+    border: none;
 }
 
 
 .box-5:hover{
-background-color: #0c8bfd;
-color: #fff;
-font-weight: lighter;
-border: none;
+    background-color: #0c8bfd;
+    color: #fff;
+    font-weight: lighter;
+    border: none;
 }
 
 .big-box{
@@ -301,6 +317,7 @@ border: none;
     display: flex;
     align-items: center;
     margin: 10px auto;
+    cursor: pointer;
 }
 
 .dot{
@@ -317,9 +334,18 @@ border: none;
     color: black;
 }
 
+/* section-4 */
 .section-4{
     background-color: #111010;
     padding: 80px 0;
+}
+.left-arrow{
+    position: relative;
+    left: 180px;
+}
+.right-arrow{
+    position: relative;
+    right: 180px;
 }
 .main-text-4{
     text-align: center;
@@ -330,8 +356,6 @@ border: none;
     margin: 0 auto;
     padding-bottom: 80px;
 }
-
-
 
 .vertical-box{
     width: 280px;
@@ -380,15 +404,16 @@ hr{
     margin-right: 10px;
 }
 .select-btn{
-background-color: #0c8bfd;
-font-size: 20px;
-width: 270px;
-height: 50px;
-border-radius: 40px;
-color: #ffffff;
-border: none;
-margin: 0 auto;
-margin-top: 20px;
+    background-color: #0c8bfd;
+    font-size: 20px;
+    width: 270px;
+    height: 50px;
+    border-radius: 40px;
+    color: #ffffff;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
 }
 .list{
     padding-top: 20px;
@@ -433,6 +458,7 @@ margin-top: 20px;
     padding-top: 0;
 }
 
+/* section-5 */
 .section-5{
     padding-top: 100px;
 }
@@ -489,10 +515,13 @@ margin-top: 20px;
     background-color: #767474;
 }
 .blue-line{
-    width: 50%;
+    height: 7px;
+    margin-top:70px ;
+    width: 30%;
     background-color: #0c8bfd;
 }
 
+/* section-6 */
 .section-6{
     background-color: #111010;
     padding: 100px 0;
@@ -532,14 +561,15 @@ margin-top: 20px;
     padding-left: 20px;
 }
 .sign-up-btn{
-background-color: #0c8bfd;
-font-size: 16px;
-width: 120px;
-height: 60px;
-padding: 10px;
-border-radius: 30px;
-color: #ffffff;
-border: none;
+    background-color: #0c8bfd;
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 .sign-up-btn:hover{
     background-color: #fff;
@@ -548,28 +578,39 @@ border: none;
     border: 2px solid black;
 }
 
-.bold{
+
+.footer ul >li{
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* .bold{
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
     margin-bottom: 15px;
-}
-.normal{
+} */
+/* .normal{
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
     margin-top: 10px;
-}
-.col{
+} */
+/* .col{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
+} */
+.one, .two, .three, .four{
+    font-weight: bold;
+} 
 .footer{
     padding: 60px 120px;
+    align-items: flex-start;
 }
 
 .bottom-logo{
     padding-top: 20px;
+    cursor: pointer;
 }
