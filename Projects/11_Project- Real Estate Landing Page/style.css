@@ -242,3 +242,21 @@ margin-bottom: 50px;
     background-position: -180px;
 
 }
+/* section-3 */
+.section-3{
+    background-color:#e6e1e1;
+    padding-top: 300px;
+    
+}
+.feature-img{
+    width:450px;
+    height:500px ;
+    border-radius: 20px;
+    position: relative;
+    bottom: 130px;
+    right:680px;
+}
+.feature-img-bg{
+    position: relative;
+    right: 100px;
+}
