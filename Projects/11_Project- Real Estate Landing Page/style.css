@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Design*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    padding-bottom:400px ;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS for Section-1 */
+.section-1{
+    padding-bottom: 100px;
+    background: url(./Photos/mainBackground.png);
+    background-size: cover;
+    /* filter: brightness(50%); */
+}
+.nav-bar{
+    padding-top: 30px;
+}
+.nav-bar li{
+    color:#ffffff;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.content{
+    padding-top: 100px;
+}
+.main-text-1{
+    font-size: 50px;
+    color:#ffffff ;
+    font-weight: bold;
+    width: 40%;
+}
+.sub-text-1{
+    font-size: 20px;
+    color: #ffffff;
+    width: 40%;
+    margin: 20px 0;
+}
+.learn-more-btn{
+    background-color: #6663e9;
+    color: #ffffff;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+}
+.learn-more-btn:hover{
+    background-color: #ffffff;
+    color: #6663e9;
+    font-weight: bold;
+    border: 2px solid #6663e9;
+}
+.logo-box{
+    background-color: #fff;
+    width: 1200px;
+    padding: 50px 0;
+    border-radius: 20px;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+} 
+
+/* section-2*/
+.section-2{
+    background-color:#e6e1e1;
+    
+}
+.main-text-2{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+/* Row-1 */
+.home-cards{
+    padding-top: 200px;
+    display: flex;
+
+}
+.card{
+    background-color: black;
+    width: 30%;
+    height: 350px;
+    border-radius: 15%;
+    margin-left: 20px;
+}
+.card-1{
+    background: url(./Photos/cardImage1.png);
+    background-size: cover;
+    background-position: -110px;
+}
+.card-2{
+    background: url(./Photos/cardImage2.png);
+    background-size: cover;
+    background-position: -20px;
+
+
+}
+.card-3{
+    background: url(./Photos/cardImage3.png);
+    background-size: cover;
+    background-position: -110px;
+
+}
+.small-card{
+background-color: #fff;
+width:80%;
+height: 20%;
+border-radius: 20px;
+padding: 20px;
+position: relative;
+top: 270px;
+margin: 0 auto;
+}
+.small-card-title{
+    color: #080845;
+    font-weight: bold;
+}
+.small-card-subtitle{
+   color: #6663e9;
+   margin-top: 10px;
+   font-weight: bold;
+}
+.detail-btn{
+    width: 80px;
+    height: 40px;
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+}
+.card-1{
+    /* margin-bottom: 60px; */
+margin-bottom: 50px;
+}
+
+/* Row-2 */
+.card-4{
+    background: url(./Photos/cardImage4.png);
+    background-size: cover;
+    background-position: -110px;
+
+}
+.card-5{
+    background: url(./Photos/cardImage5.png);
+    background-size: cover;
+    background-position: -110px;
+
+}
+.card-6{
+    background: url(./Photos/cardImage6.png);
+    background-size: cover;
+    background-position: -110px;
+
+}
+
+/* Row-3 */
+.card-7{
+    background: url(./Photos/cardImage7.png);
+    background-size: cover;
+    background-position: -110px;
+
+}
+.card-8{
+    background: url(./Photos/cardImage8.png);
+    background-size: cover;
+    background-position: -10px;
+
+}
+.card-9{
+    background: url(./Photos/cardImage9.png);
+    background-size: cover;
+    background-position: -180px;
+
+}

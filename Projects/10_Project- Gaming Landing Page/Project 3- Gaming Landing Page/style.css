@@ -117,21 +117,20 @@ color: #ffffff;
     border: none;
 }
 .get-started-button:hover{
-    background-color: #ffffff;
-    color: #f4694c;
+    background-color: orangered;
+    color: #fff;
     font-weight: bold;
 }
 
-.main-text{
+.main-text-1{
     font-size: 50px;
     color: #ffffff;
     font-weight: bold;
     padding-top: 80px;
-}
-.mt-1{
     width: 45%;
 }
-.sub-text{
+
+.sub-text-1{
     color: #837e80;
     font-size: 20px;
     width: 50%;
@@ -149,7 +148,8 @@ color: #ffffff;
     margin-left: 30px;
 }
 .learn-more-button:hover{
-    background-color: #f4694c;
+    background-color:orangered;
+    color: #fff;
     font-weight: bold;
 }
 .button{
@@ -171,7 +171,7 @@ color: #ffffff;
     right: 150px;
     width: 18%;
 }
-.right-arrow-1{
+.dash{
     position: absolute;
     top: 510px;
     right: 410px;
@@ -183,15 +183,15 @@ color: #ffffff;
 }
 
 /* CSS for section-2 */
-.section-2{
 
-}
-
-.mt-2{
+.main-text-2{
     color: black;
     width: 70%;
     text-align:center;
     margin: 0 auto;
+    font-size: 50px;
+    font-weight:bold ;
+    padding-top: 80px;
 }
 /* CSS for cards */
 .cards-section{
@@ -204,7 +204,13 @@ color: #ffffff;
     /* background-repeat: no-repeat; */
     background-size: cover; 
     background-position: -260px 0;
+    
 }
+.card:hover{
+    /* width:20% ; */
+    transition: 0.9;
+}
+
 .title{
     font-size: 16px;
     color: #ffffff;
@@ -231,6 +237,10 @@ color: #ffffff;
     height: 40px;
     border: none;
 }
+.download:hover{
+    background-color: orangered;
+    color: #fff;
+}
 .card-2{
     background: url(./Assets/Photos/image\ 4.png) no-repeat;
     background-size: cover; 
@@ -247,4 +257,238 @@ color: #ffffff;
     background-position: -260px 0;
 }
 
+/* section-3 */
 /* War Game Section */
+.war-game{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.war-game-section{
+    padding-top: 120px;
+}
+.war-image{
+    width: 500px;
+    height: 450px;
+}
+.war-image:hover{
+    transition:0.9 ;
+}
+.main-text-3{
+    color: black;
+    font-size:50px;
+    font-weight:bold;
+    
+    
+}
+.right-content{
+     width: 50%; 
+}
+.sub-text-2{
+    color: #837e80;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.explore-now-button{
+    background-color:#f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: none; 
+}
+.explore-now-button:hover{
+    background-color: orangered;
+    font-weight: bold;
+}
+.two{
+    color: #f4694c;
+    border: 2px solid #f4694c;
+}
+.two:hover{
+    background-color: orangered;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* section-4 */
+.section-4{
+    padding: 100px 0;
+}
+.arrow-buttons{
+    display: flex;
+}
+.arrow-btn-right{
+    width: 50px;
+    height: 50px;
+    background-color: #f4694c;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 10px;
+}
+.arrow-btn-left{
+    width: 50px;
+    height: 50px;
+    background-color: #e1d2d0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-text-4{
+    color: black;
+    font-size:50px;
+    font-weight:bold;
+    width: 50%;
+}
+
+.game-card-section{
+    display: grid;
+   grid-template-columns: auto auto ;
+   gap: 40px;
+   grid-row-gap: 50px;
+   padding-top: 80px;
+}
+.game-card{
+    width:500px ;
+    height: 250px;
+}
+.game-card-img{
+width: 200px;
+}
+.game-card-img:hover{
+    transition: 0.9;
+}
+
+.main-title-1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.orange-sub-title{
+    color: #f4694c;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.sub-title-1{
+    color:#837e80;
+   padding: 15px 0;
+}
+.game-card-content{
+    width: 100%;
+    margin-left: 25px;
+}
+/* section-5 */
+.section-5{
+    padding-top: 100px;
+    background-color:#0D0D0D ;
+    padding-bottom: 300px; 
+}
+.main-text-5{
+    color: #ffffff;
+    font-size:50px;
+    font-weight:bold;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.game-image-1{
+    width: 400px;
+    position: relative;
+}
+.game-image-2{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+.game-image-3{
+    width: 250px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+.games-of-the-word{
+position: relative;
+left: 300px;
+top: 230px;
+}
+.sub-title-2{
+    color: #837e80;
+    font-size: 20px;
+    width: 60%;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+/* section-6 */
+.section-6{
+    /* background-color: #0D0D0D; */
+    padding-bottom: 200px;
+    background: url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: cover;
+    filter: 50%;
+}
+.bg-img{
+    width: 1300px;
+    /* background: linear-gradient(#0D0D0D,black); */
+}
+/* .bg{
+    width: 100%;
+} */
+.main-text-6{
+    color: #ffffff;
+    font-size:50px;
+    font-weight:bold;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.sub-title-3{
+    color: #837e80;
+    font-size: 20px;
+    width: 80%;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.experience-section{
+    position: relative;
+top: 100px;
+}
+
+/* footer */
+footer {
+    background-color: #0D0D0D;
+    /* align-items: flex-start; */
+    color: #837e80;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.footer ul >li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.first,.second, .third, .fourth{
+    font-weight: bold;
+    color: #fff;
+
+}
+.first{
+    color: #ffffff;
+}
+.footer{
+align-items: flex-start;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    justify-content: space-between;
+}
+.footer-heading{
+    padding: 20px 0;
+}
+
