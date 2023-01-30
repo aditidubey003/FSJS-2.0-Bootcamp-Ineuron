@@ -1,6 +1,6 @@
 
 let firtName = 'Aditi';
-alert (`firstName`);
+
 let lastName = 'Dubey';
 
 let maritalStatus = Single;
@@ -9,7 +9,7 @@ let age = 21;
 
 let country = 'India';
 
-alert (`My name is ${firtName} ${lastName}.
- I am ${maritalStatus}. 
+console.log(`My name is ${firtName} ${lastName}.
+ My marital status is ${maritalStatus}. 
  My age is ${age} 
  and I live in ${country}`);

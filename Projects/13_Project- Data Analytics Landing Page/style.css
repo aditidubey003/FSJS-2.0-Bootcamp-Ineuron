@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Design */
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+/* Nav-bar */
+.nav-bar{
+    padding-top: 32px;
+}
+.nav-links ul>li{
+margin-left: 30px;
+/* font-weight: bold; */
+}
+.nav-links ul> li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.free-trial{
+    color:#722ed1;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #722ed1;
+    border-radius: 25px;
+    padding: 12px 40px;
+    margin-left: 30px;
+}
+.free-trial:hover{
+    background-color: #722ed1;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+header{
+    background-color: rgb(231, 253, 248);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
+    padding-bottom: 200px;
+}
+/* Content section */
+.content{
+    padding-top: 100px;
+}
+.version{
+    width: 250px;
+    /* height: 50px; */
+    background-color: #d9d7dc;
+    color: #722ed1;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.version-span{
+    color: #722ed1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-text-1{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    width: 85%;
+    padding: 30px 0;
+    line-height: 1;
+}
+.sub-text-1{
+    color: #767b7f;
+    font-size: 20px;
+    width: 80%;
+}
+.btn-section{
+    padding-top: 30px;
+}
+.btn-section .free-trial{
+    background-color: #722ed1;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btn-section .free-trial:hover{
+    background-color: #fff;
+    color: #722ed1;
+    border: 2px solid #722ed1;
+    cursor: pointer;
+}
+.learn-more{
+    color:#722ed1;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d9d7dc;
+    /* border: 2px solid #722ed1; */
+    border-radius: 25px;
+    padding: 12px 40px;
+    margin-left: 30px;
+    border: none;
+}
+.learn-more:hover{
+    background-color: #722ed1;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Main Body */
+/* Big Data Content */
+
+.big-data-content{
+    padding-top: 120px;
+}
+.qubly{
+    width: 150px;
+    background-color: #dde5eb;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #722ed1;
+    border-radius: 25px;
+    margin: 0 auto;
+    
+}
+.main-text-2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding:  20px 0;
+}
+.sub-text-2{
+    color: #767b7f;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Three Steps */
+.three-steps{
+padding-top: 80px;
+}
+.col{
+width: 30%;
+text-align: center;
+padding: 10px;
+}
+.main-text-3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.sub-text-3{
+    font-size: 16px;
+    color: #767b7f;
+}
+/* Best Stack Section */
+
+.best-stack-content{
+    padding-top: 100px;
+}
+.product-team{
+    width: 220px;
+    background-color: #dde5eb;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #722ed1;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.main-text-4{
+    font-size: 40px;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding:  20px 0;
+}
+.sub-text-4{
+    color: #767b7f;
+    font-size: 20px;
+    /* width: 70%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
