@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color:#0f0f10 ;
+    margin: auto; /* Auto */
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    padding-top: 30px;
+    margin: 0 15%;
+    color: #ffffff;
+    /* list-style-type: none; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+.nav-bar ul > li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+.earphone-1{
+    position: relative;
+    left: 20%;
+    
+}
+.shop-btn{
+    margin-left: 50px;
+    background-color:#1e1e21;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+
+}

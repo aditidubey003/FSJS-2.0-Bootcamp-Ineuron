@@ -214,8 +214,11 @@ padding: 10px;
 }
 /* Best Stack Section */
 
-.best-stack-content{
+.best-stack{
     padding-top: 100px;
+}
+.best-stack-content{
+    margin-left: 100px;
 }
 .product-team{
     width: 220px;
@@ -224,19 +227,188 @@ padding: 10px;
     font-size: 20px;
     color: #722ed1;
     border-radius: 25px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .main-text-4{
     font-size: 40px;
     font-weight: bold;
     /* margin: 0 auto; */
-    /* text-align: center; */
     padding:  20px 0;
 }
 .sub-text-4{
     color: #767b7f;
     font-size: 20px;
-    /* width: 70%; */
+    width: 90%;
     /* margin: 0 auto; */
     /* text-align: center; */
+}
+
+
+.engineering-team{
+    width: 250px;
+    background-color: #dde5eb;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #722ed1;
+    border-radius: 25px;
+}
+.data-driven-pipelines{
+    padding-top: 100px;
+}
+
+
+.profile-section{
+    clip-path: polygon(0 35%, 100% 0%, 100% 61%, 0 96%);
+    background-color: rgb(234, 241, 234);
+    padding: 400px 0;
+}
+.sub-text-5{
+    font-size: 25px;
+    color: black;
+    /* z-index: 1; */
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+.sub-text-6{
+    font-weight: bold;
+}
+.profile-pic{
+    padding: 20px 0;
+}
+.profile{
+    text-align: center;
+    margin:0  auto;
+    padding-bottom: 20px;
+}
+.logo-section{
+    padding: 40px 100px;
+ } 
+
+ /* Sign-up-section */
+ .qubly-logo-box{
+    width: 100%;
+ }
+ .main-text-6{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    width: 70%;
+    padding-bottom: 30px;
+ }
+ .sub-text-7{
+    color: #767b7f;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 auto;
+     text-align: center;
+ }
+ .row{
+    padding-top: 70px;
+    
+ }
+ .row img {
+    margin-right: 120px;
+ }
+ .form-box{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #dde5eb;
+    padding: 20px 40px;
+ }
+
+ .main-text-7{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+ .start-your-free-trial{
+    background-color: #722ed1;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.9;
+ }
+ .start-your-free-trial:hover{
+    background-color: #fff;
+    color: #722ed1;
+    border: 2px solid #722ed1;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .input-box{
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+ .span{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .google-btn{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+ }
+ .sub-text-7{
+    font-size: 20px;
+    color: #767b7f;
+    margin: 0 auto;
+ }
+ .login{
+    color: #722ed1;
+    cursor: pointer;
+ }
+
+ /* Footer */
+ footer{
+    padding: 150px 0;
+ }
+ .list{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+ .footer-info{
+    width: 30%;
+    margin-left: 20px;
+ }
+ .footer ul >li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer ul > li:hover{
+    text-decoration: underline;
+}
+.first,.second, .third, .fourth, .fifth{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+
+}
+
+.footer{
+align-items: flex-start;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    justify-content: space-between;
+}
+.footer-heading{
+    padding: 20px 0;
 }

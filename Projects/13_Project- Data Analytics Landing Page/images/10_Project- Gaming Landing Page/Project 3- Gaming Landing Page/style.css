@@ -1,0 +1,494 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Design*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&family=Karla:wght@200;300&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300&family=Roboto+Mono:wght@100;200&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    padding-bottom:200px ;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS for Section-1 */
+.section-1{
+    background: url(./Assets/Photos/futuristic-bg.png);
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+.nav-bar{
+    padding-top: 30px;
+}
+.nav-bar li{
+    color:#ffffff;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.sign-in-link{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sign-up-button{
+    background-color: #f4694c;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+}
+.sign-up-button:hover{
+background-color: orangered;
+color: #ffffff;
+}
+.login-button:hover{
+    background-color: #fff;
+    color:#f4694c;
+    font-weight: bold;
+}
+
+.get-started-button{
+    background-color:#f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+}
+.get-started-button:hover{
+    background-color: orangered;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-text-1{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 80px;
+    width: 45%;
+}
+
+.sub-text-1{
+    color: #837e80;
+    font-size: 20px;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.learn-more-button{
+    background-color:  transparent;
+    color: #f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: 30px;
+}
+.learn-more-button:hover{
+    background-color:orangered;
+    color: #fff;
+    font-weight: bold;
+}
+.button{
+    display : flex;
+    padding-top: 40px;
+}
+
+.play-btn{
+    /* position:relative; */
+    position: absolute;
+    top: 250px;
+    right: 270px;
+}
+.side-text{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 500px;
+    right: 150px;
+    width: 18%;
+}
+.dash{
+    position: absolute;
+    top: 510px;
+    right: 410px;
+}
+.right-arrow-2{
+    position: absolute;
+    top: 590px;
+    right: 60px;
+}
+
+/* CSS for section-2 */
+
+.main-text-2{
+    color: black;
+    width: 70%;
+    text-align:center;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight:bold ;
+    padding-top: 80px;
+}
+/* CSS for cards */
+.cards-section{
+    padding-top: 100px;
+}
+.card{
+    width:23%;
+    height:350px;
+    background: url(./Assets/Photos/image\ 2.png) no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+    background-position: -260px 0;
+    
+}
+.card:hover{
+    /* width:20% ; */
+    transition: 0.9;
+}
+
+.title{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.sub-title{
+    color: #837e80;
+}
+.description{
+    width:100%;
+    height: 80px;
+    background-color:#23212199;
+    position: relative;
+    top:270px;
+    /* display: flex; */
+     justify-content: space-around; 
+    
+}
+.download{
+    background-color:  #f4694c;
+    color: #ffffff;
+    font-size:16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.download:hover{
+    background-color: orangered;
+    color: #fff;
+}
+.card-2{
+    background: url(./Assets/Photos/image\ 4.png) no-repeat;
+    background-size: cover; 
+    background-position: -200px 0;
+}
+.card-3{
+    background: url(./Assets/Photos/image\ 3.png) no-repeat;
+    background-size: cover; 
+    background-position: -140px 0;
+}
+.card-4{
+    background: url(./Assets/Photos/Rectangle\ 56.png) no-repeat;
+    background-size: cover; 
+    background-position: -260px 0;
+}
+
+/* section-3 */
+/* War Game Section */
+.war-game{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.war-game-section{
+    padding-top: 120px;
+}
+.war-image{
+    width: 500px;
+    height: 450px;
+}
+.war-image:hover{
+    transition:0.9 ;
+}
+.main-text-3{
+    color: black;
+    font-size:50px;
+    font-weight:bold;
+    
+    
+}
+.right-content{
+     width: 50%; 
+}
+.sub-text-2{
+    color: #837e80;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.explore-now-button{
+    background-color:#f4694c;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    border: none; 
+}
+.explore-now-button:hover{
+    background-color: orangered;
+    font-weight: bold;
+}
+.two{
+    color: #f4694c;
+    border: 2px solid #f4694c;
+}
+.two:hover{
+    background-color: orangered;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* section-4 */
+.section-4{
+    padding: 100px 0;
+}
+.arrow-buttons{
+    display: flex;
+}
+.arrow-btn-right{
+    width: 50px;
+    height: 50px;
+    background-color: #f4694c;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 10px;
+}
+.arrow-btn-left{
+    width: 50px;
+    height: 50px;
+    background-color: #e1d2d0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-text-4{
+    color: black;
+    font-size:50px;
+    font-weight:bold;
+    width: 50%;
+}
+
+.game-card-section{
+    display: grid;
+   grid-template-columns: auto auto ;
+   gap: 40px;
+   grid-row-gap: 50px;
+   padding-top: 80px;
+}
+.game-card{
+    width:500px ;
+    height: 250px;
+}
+.game-card-img{
+width: 200px;
+}
+.game-card-img:hover{
+    transition: 0.9;
+}
+
+.main-title-1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.orange-sub-title{
+    color: #f4694c;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.sub-title-1{
+    color:#837e80;
+   padding: 15px 0;
+}
+.game-card-content{
+    width: 100%;
+    margin-left: 25px;
+}
+/* section-5 */
+.section-5{
+    padding-top: 100px;
+    background-color:#0D0D0D ;
+    padding-bottom: 300px; 
+}
+.main-text-5{
+    color: #ffffff;
+    font-size:50px;
+    font-weight:bold;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.game-image-1{
+    width: 400px;
+    position: relative;
+}
+.game-image-2{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+.game-image-3{
+    width: 250px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+.games-of-the-word{
+position: relative;
+left: 300px;
+top: 230px;
+}
+.sub-title-2{
+    color: #837e80;
+    font-size: 20px;
+    width: 60%;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+/* section-6 */
+.section-6{
+    /* background-color: #0D0D0D; */
+    padding-bottom: 200px;
+    background: url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: cover;
+    filter: 50%;
+}
+.bg-img{
+    width: 1300px;
+    /* background: linear-gradient(#0D0D0D,black); */
+}
+/* .bg{
+    width: 100%;
+} */
+.main-text-6{
+    color: #ffffff;
+    font-size:50px;
+    font-weight:bold;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.sub-title-3{
+    color: #837e80;
+    font-size: 20px;
+    width: 80%;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.experience-section{
+    position: relative;
+top: 100px;
+}
+
+/* footer */
+footer {
+    background-color: #0D0D0D;
+    /* align-items: flex-start; */
+    color: #837e80;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.footer ul >li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.first,.second, .third, .fourth{
+    font-weight: bold;
+    color: #fff;
+
+}
+.first{
+    color: #ffffff;
+}
+.footer{
+align-items: flex-start;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    justify-content: space-between;
+}
+.footer-heading{
+    padding: 20px 0;
+}
+
