@@ -11,4 +11,4 @@ if (num % i === 0){
 }
 }
 
-isPrime(5);
+isPrime(5);Input Type Text
