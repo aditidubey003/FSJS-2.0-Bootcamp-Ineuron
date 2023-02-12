@@ -5,24 +5,24 @@
 - June, July or August, the season is Summer*/
 
 //Solution
-let month = 1;
+let month = prompt ("Enter the month name");
 
-switch (month){
-    case 12:
+switch (true){
+    case 11:
+    case 0:
     case 1:
+        console.log("the season is Winter");
+    break;
     case 2:
-        return "the season is Winter";
-    break
     case 3:
     case 4:
+        console.log("the season is Spring");
+    break;
     case 5:
-        return "the season is Spring";
-    break
     case 6:
     case 7:
-    case 8:
-         return "the season is Summer";
-    break
+        console.log("the season is Summmer");
+    break;
     default:
-        return"the season is Autumn";
+        console.log("the season is Autumn");
 }
